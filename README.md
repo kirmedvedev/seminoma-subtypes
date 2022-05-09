@@ -7,7 +7,7 @@ Overview of dataset preparation, training and validation process:
 <img width="450" alt="изображение" src="https://user-images.githubusercontent.com/95879893/167447521-6b29153e-2596-4931-9a10-af597747da6e.png">
 
 
-For training this model we used all histopathological slides available at TCGA data portal for 64 pure seminoma samples (156 slides). Pure seminoma regions of interest (ROIs) were assigned and verified for each slide. Verified ROIs were subsequently split into smaller tiles (300x300 pixels) at 20X magnification and with 50% overlap.
+For training this model we used all histopathological slides available at TCGA data portal for 64 pure seminoma samples (156 slides). Pure seminoma regions of interest (ROIs) were assigned and verified for each slide. Verified ROIs were subsequently split into smaller tiles (300x300 pixels) at 20X magnification and with 50% overlap. Models training was performed for 40 epochs.
 
 Model was trained using:
 - Tensorflow 2.5.0
