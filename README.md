@@ -21,3 +21,10 @@ At the validation step model achieved the highest accuracy with 0.933.
 Area under the ROC curve for validation = 0.92
 ![изображение](https://user-images.githubusercontent.com/95879893/167448397-e625b17c-fa6d-487f-b0fe-7e4bb245d7a9.png)
 
+## Usage
+
+```python
+import tensorflow as tf
+model = tf.keras.models.load_model('./seminoma-subtypes.h5')
+```
+
