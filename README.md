@@ -25,6 +25,11 @@ Area under the ROC curve for validation = 0.92
 
 ```python
 import tensorflow as tf
-model = tf.keras.models.load_model('./seminoma-subtypes.h5')
+model = tf.keras.models.load_model('./seminoma_subtypes_model.h5')
 ```
+
+## References
+1. Medvedev KE, Savelyeva AV, Bagrodia A, Jia L, Grishin NV. Integrated molecular analysis reveals two distinct subtypes of pure seminoma of the testis. bioRxiv. 2022. https://www.biorxiv.org/content/10.1101/2022.04.25.489437v1
+2. Medvedev KE, Jia L, Grishin NV. Deep learning for subtypes identification of pure seminoma of the testis. 2022.
+
 
