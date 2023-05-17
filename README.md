@@ -1,13 +1,13 @@
 # Deep learning for identification of pure seminoma subtypes using H&E slides
 
-This repository provides pretrained model for identification of pure seminoma subtypes. Seminoma subtypes were identified using data from The Cancer Genome Atlas (https://portal.gdc.cancer.gov/) [https://doi.org/10.1101/2022.04.25.489437].
+This repository provides pretrained model for identification of pure seminoma subtypes. Seminoma subtypes were identified using data from The Cancer Genome Atlas (https://portal.gdc.cancer.gov/) [1,2].
 
 Overview of dataset preparation, training and validation process:
 
 <img width="450" alt="изображение" src="https://user-images.githubusercontent.com/95879893/167447521-6b29153e-2596-4931-9a10-af597747da6e.png">
 
 
-For training this model we used all histopathological slides available at TCGA data portal for 64 pure seminoma samples (156 slides). Pure seminoma regions of interest (ROIs) were assigned and verified for each slide. Verified ROIs were subsequently split into smaller tiles (300x300 pixels) at 20X magnification and with 50% overlap. Models training was performed for 40 epochs.
+For training this model we used all histopathological slides available at TCGA data portal for 64 pure seminoma samples (156 slides). Pure seminoma regions of interest (ROIs) were assigned and verified for each slide. Verified ROIs were subsequently split into smaller tiles (300x300 pixels) at 20X magnification and with 50% overlap. Models training was performed for 20 epochs with 3-fold cross-validation.
 
 Model was trained using:
 - Tensorflow 2.5.0
@@ -15,12 +15,10 @@ Model was trained using:
 - cuDNN 8.1
 - Binary Cross Entropy loss function
 - Adam optimizer 
-- Inception-v3 architecture [https://arxiv.org/abs/1512.00567]
+- MobileNet architecture
 
-At the validation step model achieved the highest accuracy with 0.933.
-Area under the ROC curve for validation = 0.92
+![Fig4](https://github.com/kirmedvedev/seminoma-subtypes/assets/95879893/45e62c9c-cc0b-4519-ab0f-3773054e2e0c)
 
-![изображение](https://user-images.githubusercontent.com/95879893/167448397-e625b17c-fa6d-487f-b0fe-7e4bb245d7a9.png)
 
 ## Usage
 
