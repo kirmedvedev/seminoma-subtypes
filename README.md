@@ -17,7 +17,7 @@ Model was trained using:
 - Adam optimizer 
 - MobileNet architecture
 
-![Fig4](https://github.com/kirmedvedev/seminoma-subtypes/assets/95879893/45e62c9c-cc0b-4519-ab0f-3773054e2e0c)
+![Fig4_new](https://github.com/kirmedvedev/seminoma-subtypes/assets/95879893/1962ad57-06db-4c92-8466-38f867558ce1)
 
 
 ## Usage
