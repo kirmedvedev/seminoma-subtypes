@@ -4,7 +4,8 @@ This repository provides pretrained model for identification of pure seminoma su
 
 Overview of dataset preparation, training and validation process:
 
-<img width="450" alt="изображение" src="https://user-images.githubusercontent.com/95879893/167447521-6b29153e-2596-4931-9a10-af597747da6e.png">
+<img width="644" alt="Fig3" src="https://github.com/kirmedvedev/seminoma-subtypes/assets/95879893/9b4b131b-8dbb-448d-89fa-8fdc6e8b0c1b">
+
 
 
 For training this model we used all histopathological slides available at TCGA data portal for 64 pure seminoma samples (156 slides). Pure seminoma regions of interest (ROIs) were assigned and verified for each slide. Verified ROIs were subsequently split into smaller tiles (300x300 pixels) at 20X magnification and with 50% overlap. Models training was performed for 20 epochs with 3-fold cross-validation.
