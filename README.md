@@ -4,7 +4,8 @@ This repository provides pretrained model for identification of pure seminoma su
 
 Overview of dataset preparation, training and validation process:
 
-<img width="644" alt="Fig3" src="https://github.com/kirmedvedev/seminoma-subtypes/assets/95879893/9b4b131b-8dbb-448d-89fa-8fdc6e8b0c1b">
+<img width="778" alt="Fig3_new" src="https://github.com/kirmedvedev/seminoma-subtypes/assets/95879893/f24063b2-7e76-4eb3-be18-67619324b5d7">
+
 
 
 
