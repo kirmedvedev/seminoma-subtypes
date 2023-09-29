@@ -31,6 +31,6 @@ model = tf.keras.models.load_model('./seminoma_subtypes_model_new.h5')
 
 ## References
 1. Medvedev KE, Savelyeva AV, Chen KS, Bagrodia A, Jia L, Grishin NV. Integrated Molecular Analysis Reveals 2 Distinct Subtypes of Pure Seminoma of the Testis. _Cancer Informstics_. 2022, 21. https://doi.org/10.1177/11769351221132634
-2. Medvedev KE, Savelyeva AV. Seminoma subtypes differ in the organization and functional state of the immune microenvironment. _3 Biotech_. 2023, 13(3):110. https://doi.org/10.1007/s13205-023-03530-1
+2. Savelyeva AV, Medvedev KE. Seminoma subtypes differ in the organization and functional state of the immune microenvironment. _3 Biotech_. 2023, 13(3):110. https://doi.org/10.1007/s13205-023-03530-1
 3. Medvedev KE, Jia L, Grishin NV. Deep learning for subtypes identification of pure seminoma of the testis. _medRxiv_ 2022.05.16.22275153. https://doi.org/10.1101/2022.05.16.22275153
 
